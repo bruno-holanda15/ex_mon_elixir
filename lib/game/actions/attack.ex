@@ -35,5 +35,4 @@ defmodule ExMon.Game.Actions.Attack do
 
     Status.print_move_message(opponent, :attack, damage)
   end
-
 end

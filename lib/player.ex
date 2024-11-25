@@ -11,7 +11,7 @@ defmodule ExMon.Player do
       moves: %{
         move_avg: move_avg,
         move_rnd: move_rnd,
-        move_heal: move_heal,
+        move_heal: move_heal
       },
       name: name
     }
