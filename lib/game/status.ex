@@ -7,7 +7,7 @@ defmodule ExMon.Game.Status do
   end
 
   def print_round_message(%{status: :continue, turn: player} = info) do
-    IO.puts("\n========== It`s #{player} turn. ==============\n")
+    IO.puts("\n========== It's #{player} turn. ==============\n")
     IO.inspect(info)
     IO.puts("\n--------------------------------------\n")
   end
